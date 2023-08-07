@@ -1,5 +1,10 @@
 #include <iostream>
 
+// Functions
+void doPrint() {
+    std::cout << "print\n";
+}
+
 int main()
 {
     std::cout << "Hello world!\n";          // std::cout = "character output"     << = "insertion operator"
@@ -28,4 +33,6 @@ int main()
     std::cout << sizeof(int) << "\n";       // sizeof() returns size of type in bytes. 4 for this compiler
 
     return 0;                               // returning 0 = everything is ok
+
+    doPrint();
 }
